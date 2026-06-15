@@ -12,14 +12,13 @@
 #define MQTT_KEEPALIVE          60      /* 心跳间隔(秒) */
 
 /* ======================== 设备凭证 ======================== */
-#define MQTT_CLIENT_ID          "smartdap"
-#define MQTT_USERNAME           "X9Dcio5cI0"
-#define MQTT_PASSWORD           \
-"version=2018-10-31&res=products%2FX9Dcio5cI0%2Fdevices%2Fsmartdap&et=1872999428&method=md5&sign=9O5UvQMNFFQ6bPDtn3iHcA%3D%3D"
+#define MQTT_CLIENT_ID          "XXX"  // 设备名称
+#define MQTT_USERNAME           "XXX"  // 账号
+#define MQTT_PASSWORD           "XXX"  // 密码
 
 /* ======================== 产品信息 ======================== */
-#define PRODUCT_ID              "X9Dcio5cI0"
-#define DEVICE_NAME             "smartdap"
+#define PRODUCT_ID              "XXX"  // 产品ID
+#define DEVICE_NAME             "XXX"  // 设备名称
 
 /* ======================== Topic 模板 ======================== */
 /* 属性上报 */
